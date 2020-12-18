@@ -21,6 +21,7 @@ public class WelcomeServlet extends HttpServlet {
 		String name = (String)session.getAttribute("name");
 
 		out.println("<h1>Login Successfull...."+  name  +"</h1>");
+		out.println("<h1>commit once again."+  name  +"</h1>");
 	}
 
 }
